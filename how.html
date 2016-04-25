@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Consign with TRR</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
+
+<script> 
+expanded = false
+$(document).ready(function() {
+	
+	$( ".largeTitle, .close, .button2" ).click(function() {
+  		$( ".moreInfo" ).slideToggle( "slow", function() {
+    // Animation complete.
+  		});
+  
+  		if(expanded) {
+			$( ".button2, .close").delay(500).fadeToggle(0);
+			$( ".largeTitle").delay(0).toggleClass("largeTitleExpanded");
+		}
+		else {
+			$( ".button2, .close").fadeToggle();
+			$( ".largeTitle").delay(0).toggleClass("largeTitleExpanded");
+		}
+		expanded = !expanded;
+		
+			
+			/*
+ 		 $( ".button2, .close" ).toggle(0, function() {
+    // Animation complete.
+  		});
+		*/
+		
+		$row = $($(this).parents(".row")[0]);
+		$row.toggleClass("marginBottomFix");
+		
+});
+	
+});
+</script>
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+
+<div class="row">
+
+<div class="col-sm-12 header">
+<img src="images/header.png">
+</div>
+
+</div><!--End row-->
+
+<div class="row">
+
+<div class="col-sm-12 middle">
+<img src="images/middle.png">
+</div><!--End middle-->
+
+</div>
+
+<div class"row">
+
+<div class="col-sm-12 options">
+<div class="col-sm-2"></div>
+
+<div class="col-sm-2"><a href="index.html#bottom">TRR Consignment</a><img src="images/bulletpoint.png"></div>
+<div class="col-sm-2 active"><a href="how.html#bottom" style="margin-right: -15px;">How It works</a><img src="images/bulletpoint.png"></div>
+<div class="col-sm-2"><a href="expect.html#bottom" style="margin-right: -15px;">What to Expect</a><img src="images/bulletpoint.png"></div>
+<div class="col-sm-2"><a href="accept.html#bottom">What We Accept</a></div>
+
+<div class="col-sm-2"></div>
+</div><!--End options-->
+
+
+<!----------------------End four options------------------------>
+
+</div><!--End row-->
+
+<div class="row">
+
+<div class="col-sm-12 expect">
+
+<div class="large">How consignment services work</div>
+<div class="small">Experience the best parts of consignment, without all the effort</div>
+
+<a name="bottom"></a>
+
+</div><!--End expect-->
+
+<div class="columns">
+
+<div class="col-sm-4 one">
+
+<img src="images/evaluation.png">
+
+<div class="clearfix"></div>
+
+<div class="col-xs-2 line"></div>
+<div class="col-xs-8 title">
+Evaluation & Merchandising
+</div>
+<div class="col-xs-2 line"></div>
+
+<div class="clearfix"></div>
+<p>We take on all the effort to sell for you, and our in-house <a href="#" style="color: #000; border-bottom: 1px dashed #000; text-decoration: none;" data-toggle="tooltip" title="Authenticators, gemologists, horologists, and curators evaluate consigned items with their respective expertise in women's and men's fashion and accessories, fine jewelry, watches, art, and home categories. Each has hundreds of hours of in-field experience and specialist training. They work with an internal proprietary system to determine fair market value and subsequent TRR list pricing.">team of trained specialists</a> are best-suited for the task. Once your consignment has been received, the team considers items in terms of their secondary market value and what our audience finds desirable.</p>
+<div class="clearfix"></div>
+<p>
+Since there is an evergreen <a href="#" style="color: #000; border-bottom: 1px dashed #000; text-decoration: none;" data-toggle="tooltip" title='As an extra incentive to shop, we offer a sitewide "20% off" promotional discount. Shoppers may choose to use it on their purchases. However, exceptionally high-end and in-demand items are exempt from applied discount codes.'>20% off promotion</a>, we initially set merchandise at their highest sale price. They'll also be placed in <a href="#" style="color: #000; border-bottom: 1px dashed #000; text-decoration: none;" data-toggle="tooltip" title='Our flash sales inspire high-end shoppers to shop. This added incentive is key in selling fast. Periodically, items will be featured in sales ranging from the "20% off for new arrivals" to blowouts of 70% off (for items in the system for 90+ days).'>strategic flash sales</a> over time to be front of millions of the right shoppers <em>at the right time</em>. We look forward to making fast sales happen for you.
+</p>
+
+</div>
+
+<div class="col-sm-4 two">
+
+<img src="images/authentication.png">
+<div class="clearfix"></div>
+
+<div class="col-xs-2 line"></div>
+<div class="col-xs-8 title">
+Authentication & Pricing
+</div>
+<div class="col-xs-2 line"></div>
+
+<div class="clearfix"></div>
+<p>We are committed to a <a href="#" style="color: #000; border-bottom: 1px dashed #000; text-decoration: none;" data-toggle="tooltip" title="Authenticity is the cornerstone of The RealReal. All items are put through a multi-point, brand-specific authentication process by a team of luxury experts headed by our Director of Authentication & Brand Compliance. All goods are inspected for appropriate brand markings, date codes, serial tags, and hologram stickers. Everything must pass strict authenticity tests before being curated into sales.">promise of authenticity</a> because we truly respect the brands we represent and value customer satisfaction. Every day our trained experts - authenticators, horologists, gemologists, and art curators - thoroughly inspect the quality of thousands of incoming items and fully confirm their authenticity.</p>
+<div class="clearfix"></div>
+<p>We set market-appropriat eprices based on an item's <a href="#" style="color: #000; border-bottom: 1px dashed #000; text-decoration: none;" data-toggle="tooltip" title="Every brand name item sold on The RealReal is treated as unique because condition and age will undoubtedly impact value and demand for an item. We are committed to the effort of photographing and capturing all necessary details of an item's condition and appearance. This is done to ensure that what you see is exactly what you'll get when considering a purchase.">individual characteristics</a>.It's in the Consignor's and our interest to value goods at their highest possible TRR list price, so we can both earn the best commission value.
+</p>
+
+</div>
+
+
+<div class="col-sm-4 three">
+
+<img src="images/customerCare.png">
+
+<div class="clearfix"></div>
+
+<div class="col-xs-2 line"></div>
+<div class="col-xs-8 title">
+Customer Care & Deliver
+</div>
+<div class="col-xs-2 line"></div>
+<div class="clearfix"></div>
+<p>Not only does your consignment receive the end-to-end special treatment of individual evaluation, professional photography, copywriting, valuation, pricing, and merchandising, our team takes care of all customer needs throughout the entire sale process and purchase fulfillment.
+</p>
+<div class="clearfix"></div>
+<p>We serve our shoppers in a thoughtful, timely, and efficient manner on your behalf. You'll never have to think about <a href="#" style="color: #000; border-bottom: 1px dashed #000; text-decoration: none;" data-toggle="tooltip" title="Every brand name item sold on The RealReal is treated as unique because condition and age will undoubtedly impact value and demand for an item. We are committed to the effort of photographing and capturing all necessary details of an item's condition and appearance. This is done to ensure that what you see is exactly what you'll get when considering a purchase."> the logistics!</a> We make the sale happen and fully deliver on it for you.</p>
+</div>
+
+</div><!--End columns-->
+
+</div><!--End row-->
+
+<!----------------------End three column layout------------------------>
+
+<div class="row">
+
+<div class="col-sm-12 questions">
+
+<div class="largeTitle"><font style="font-weight: bold">Top questions</font> <div class="grayText">about how consignment services work</div></div>
+<div class="clearfix"></div>
+<div class="close" style="display: none;"><img src="images/close.png"></div>
+
+
+
+<div class="moreInfo" style="display: none;">
+<div class="close"><img src="images/close.png"></div>
+<div class="col-sm-12 info" style=": hidden">
+<div class="col-sm-2 icon"><img src="images/evaluation.png"></div>
+<div class=" col-sm-8">
+<div class="smallTitle">Process:
+<p>Can I have my items evaluated before I consign?</p></div>
+<p>Our White Glove service offers the most convenient and personal way to evaluate items you'd like to consign. If you're outside of our geographic coverage area, <a href="https://www.therealreal.com/consign" target="_blank">we'd still like to hear from you</a> about your luxury designer goods. <a href="https://www.therealreal.com/designers" target="_blank">Our team</a> is just a quick message or phone call away at 1-800-215-0566.</p></div>
+<div class="col-sm-2"></div>
+</div><!--End info-->
+
+<div class="col-sm-12 info">
+<div class="col-sm-2 icon"><img src="images/authentication.png"></div>
+<div class=" col-sm-8">
+<div class="smallTitle">Pricing:
+<p>Who determines the price of items? Can I offer any input on value?</p></div>
+<p>Our in-house experts evaluate thousands of luxury goods per week and closely monitor the "sell-through" of items. It's an art and a science. we understand that the formula for a "well-priced" item balances factors of current customer demand. If your item is generally valued at around $1k or more, it qualifies for a price approval request.</p></div>
+<div class="col-sm-2"></div>
+</div><!--End info-->
+
+<div class="col-sm-12 info">
+<div class="col-sm-2 icon"><img src="images/customerCare.png"></div>
+<div class=" col-sm-8">
+<div class="smallTitle">Sales:
+<p>Why is The RealReal the best place to consign?</p></div>
+<p>Our unique reputation of "minimal effort for you" coupled with "highest yield in return" sets us apart in the industry. We're committed to extending the lifetime value of luxury goods and respecting the repesented brands. As a result, we go the extra mile with our high-touch consignment services <em>and</em> offer the highest commission rates of all marketplaces. </p></div>
+<div class="col-sm-2"></div>
+</div><!--End info-->
+
+</div><!--End questions-->
+
+</div><!--End row">
+<!-------------------End questions--------------------->
+
+<div class="row">
+
+<div class="col-sm-12 contact">
+
+Need help or have questons about consigning? <b>Call our consignor relations team: 1-800-215-0566</b>
+
+</div>
+
+</div><!--End row-->
+
+</div><!--End container-->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

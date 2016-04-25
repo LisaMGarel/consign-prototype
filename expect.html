@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Consign with TRR</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
+
+<script> 
+expanded = false
+$(document).ready(function() {
+	
+	$( ".largeTitle, .close, .button2" ).click(function() {
+  		$( ".moreInfo" ).slideToggle( "slow", function() {
+    // Animation complete.
+  		});
+  
+  		if(expanded) {
+			$( ".button2, .close").delay(500).fadeToggle(0);
+			$( ".largeTitle").delay(0).toggleClass("largeTitleExpanded");
+		}
+		else {
+			$( ".button2, .close").fadeToggle();
+			$( ".largeTitle").delay(0).toggleClass("largeTitleExpanded");
+		}
+		expanded = !expanded;
+		
+			
+			/*
+ 		 $( ".button2, .close" ).toggle(0, function() {
+    // Animation complete.
+  		});
+		*/
+		
+		$row = $($(this).parents(".row")[0]);
+		$row.toggleClass("marginBottomFix");
+		
+});
+	
+});
+</script>
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+
+<div class="row">
+
+<div class="col-sm-12 header">
+<img src="images/header.png">
+</div>
+
+</div><!--End row-->
+
+<div class="row">
+
+<div class="col-sm-12 middle">
+<img src="images/middle.png">
+</div><!--End middle-->
+
+</div>
+
+<div class"row">
+
+<div class="col-sm-12 options">
+<div class="col-sm-2"></div>
+
+<div class="col-sm-2"><a href="index.html#bottom">TRR Consignment</a><img src="images/bulletpoint.png"></div>
+<div class="col-sm-2"><a href="how.html#bottom" style="margin-right: -15px;">How It works</a><img src="images/bulletpoint.png"></div>
+<div class="col-sm-2 active"><a href="expect.html#bottom" style="margin-right: -15px;">What to Expect</a><img src="images/bulletpoint.png"></div>
+<div class="col-sm-2"><a href="accept.html#bottom">What We Accept</a></div>
+
+<div class="col-sm-2"></div>
+</div><!--End options-->
+
+
+<!----------------------End four options------------------------>
+
+</div><!--End row-->
+
+<div class="row">
+
+<div class="col-sm-12 expect">
+
+<div class="large">What to expect when consigning</div>
+<div class="small">We will ensure an exceptional consignment experience</div>
+
+<a name="bottom"></a>
+
+</div><!--End expect-->
+
+<div class="columns">
+
+<div class="col-sm-4 one">
+
+<img src="images/sales2.png">
+
+<div class="clearfix"></div>
+
+<div class="col-xs-2 line"></div>
+<div class="col-xs-8 title">
+Receiving & Processing
+</div>
+<div class="col-xs-2 line"></div>
+
+<div class="clearfix"></div>
+<p>We communicate each step of the way. You'll know via email when your items have been received and are in process. Our trained in-house experts will take the time to evaluate and describe your items. A follow-up email will let you know which have been accepted for sale.</p>
+<div class="clearfix"></div>
+<p><a href="#" style="color: #000; border-bottom: 1px dashed #000; text-decoration: none;" data-toggle="tooltip" title="Designer brand, current shopper demand, and overall condition of an item are key criteria to determine whether an item is accepted and how it's priced. It should adhere to condition standards and the brands on the Designer List, with few exceptions.">Standards and criteria</a> are taken into account when we accept and price items. Keep in mind, some may take longer to sell than others. This can depend on several factors at any given time - current fashion trends, shopper demand, condition, and item characteristics.
+</p>
+
+</div>
+
+<div class="col-sm-4 two">
+
+<img src="images/pricing.png">
+<div class="clearfix"></div>
+
+<div class="col-xs-2 line"></div>
+<div class="col-xs-8 title">
+Let the sales begin
+</div>
+<div class="col-xs-2 line"></div>
+
+<div class="clearfix"></div>
+<p>Once your items have been accepted and are available for sale, you can follow along with updates on your My Sales page. Check on the status of items, your current commission rate, and commission values per item. Everything you need to know is in one place.</p>
+<div class="clearfix"></div>
+<p>Each month we run a different promotional incentive for first time Consignors. Once you've qualified, you'll receive details about how and when you'll receive it. Mid-month, commission payments go out for sales during the prior month, and as your <a href="#" style="color: #000; border-bottom: 1px dashed #000; text-decoration: none;" data-toggle="tooltip" title="We offer flexible ways to get paid for your Consignment sales. Choose from check, direct deposit, or site credit. If you love shopping on The RealReal, choose site credit to receive an extra 5% on the value of your sales for the month.">preferred method of payment</a>.
+</p>
+
+</div>
+
+
+<div class="col-sm-4 three">
+
+<img src="images/addictive.png">
+
+<div class="clearfix"></div>
+
+<div class="col-xs-2 line"></div>
+<div class="col-xs-8 title">
+It's truly addictive!
+</div>
+<div class="col-xs-2 line"></div>
+<div class="clearfix"></div>
+<p>If you believe shopping on The RealReal is addictive, you should experience how addictive consigning with us can actually be! Turn those clothes, bags, shoes, jewelry, and accessories in <a href="#" style="color: #000; border-bottom: 1px dashed #000; text-decoration: none;" data-toggle="tooltip" title="we offer flexible ways to get paid for your Consignment sales. Choose from check, direct deposit, or site credit. If you love shopping on The RealReal, choose site credit to eceive an extra 5% on the value of your sales for the month">cash or site credit today.</a></p>
+<div class="clearfix"></div>
+<p>Our strategic goal to <em>sell well</em> starts with launching items at their highest possible sale price within the first 30 days. You'll then get the best value when fast sales happen. In traditional consignment, the typical pay out is a 50-60% commission. At The RealReal, Consignors can earn up to <a href="#" style="color: #000; border-bottom: 1px dashed #000; text-decoration: none;" data-toggle="tooltip" title="Our Consignors start out with a 60% commission rate on their consignment sales. Once $10,000 in saes has been reached, the commission rate switches to 70% for all following sales. The 70% extends for 12 months after first applied.">70% commission</a> - the more you sell, the more you earn!</p>
+
+</div>
+
+</div><!--End columns-->
+
+</div><!--End row-->
+
+<!----------------------End three column layout------------------------>
+
+<div class="row">
+
+<div class="col-sm-12 questions">
+
+<div class="largeTitle"><font style="font-weight: bold; text-align: center;">Top questions</font> <div class="grayText">about what to expect when consigning</div></div>
+<div class="clearfix"></div>
+<div class="close" style="display: none;"><img src="images/close.png"></div>
+
+<div class="moreInfo" style="display: none;">
+
+<div class="col-sm-12 info">
+<div class="col-sm-2 icon"><img src="images/appointments.png"></div>
+<div class=" col-sm-8">
+<div class="smallTitle">Appointments:
+<p>How long is an average in-home appointment? How should I prepare?</p></div>
+<p>A white glove in-home appointment can last for 30 minutes to an hour, depending on how many items you have ready 
+for our Luxury Manager to evaluate. As a courtesy, please buffer your appointment time by an extra 15 minutes. In preparation, <a href="https://www.therealreal.com/" target="_blank">look up similar items to your own and see prices of previously recently sold items.</a></p></div>
+<div class="col-sm-2"></div>
+</div><!--End info-->
+
+<div class="col-sm-12 info">
+<div class="col-sm-2 icon"><img src="images/pricing.png"></div>
+<div class=" col-sm-8">
+<div class="smallTitle">Pricing:
+<p>Do any items qualify for a price approval request? If so, which ones and what is the process like?</p></div>
+<p>Items valued at $995+ are elligible for a “Price Approval” before it goes on sale. Furs and exotic skins may also qualify. 
+If you have pricing sensitivity around your goods, ask your Luxury Manager <a href="https://www.therealreal.com/" target="blank">or our team </a>about this practice. Understand that the communication exchange about your item may take extra time and could delay its official launch to the site.</p></div>
+<div class="col-sm-2"></div>
+</div><!--End info-->
+
+<div class="col-sm-12 info">
+<div class="col-sm-2 icon"><img src="images/sales2.png"></div>
+<div class=" col-sm-8">
+<div class="smallTitle">Sales:
+<p>How will I know when my items have been accepted and are officially on sale?</p></div>
+<p>You will receive an email to notify you about which items have been accepted and which ones will be returned to you (including reasons.) Please check on your My Sales page periodically to see status updates regarding processing and various sale statuses. </p></div>
+<div class="col-sm-2"></div>
+</div><!--End info-->
+
+</div>
+</div><!--End questions-->
+
+</div><!--End row">
+<!-------------------End questions--------------------->
+
+<div class="row">
+
+<div class="col-sm-12 contact">
+
+Need help or have questons about consigning? <b>Call our consignor relations team: 1-800-215-0566</b>
+
+</div>
+
+</div><!--End row-->
+
+</div><!--End container-->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
