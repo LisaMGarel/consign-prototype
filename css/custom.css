@@ -116,8 +116,8 @@ ul li {
 	color: #666;
 	text-transform: uppercase;
 	text-align: center;
-	font-weight: 300;
-	letter-spacing: 1.1px;
+	font-weight: 400;
+	letter-spacing: .5px;
 }
 
 .small {
@@ -125,8 +125,7 @@ ul li {
 	color: #666;
 	text-transform: uppercase;
 	text-align: center;
-	font-weight: 300;
-	letter-spacing: 1.1px;
+	letter-spacing: .5px;
 }
 
 .columns {
