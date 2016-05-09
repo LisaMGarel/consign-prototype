@@ -364,8 +364,6 @@ p {
 .learnMore {
 	text-align: center;
 	margin-left: 15px;
-	margin-bottom: 30px;
-	margin-top: 20px;
 }
 
 .learnMore a {
@@ -374,4 +372,9 @@ p {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.learnMore a:hover {
+	color: #0088aa;
 }
